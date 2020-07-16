@@ -6,7 +6,6 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.model;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-import org.junit.Before;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,9 +27,8 @@ public class WelcomeControllerTest {
 	@Autowired
 	private WebApplicationContext context;
 	
-	@Before
+	//@Before
 	public void setUp() throws Exception{
-		
 		
 	}
 	
