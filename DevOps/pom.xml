@@ -23,12 +23,13 @@
 	</distributionManagement>
 
 	<scm>
-	  <connection>scm:git:https://github.com:jeevansarode/DevOps.git</connection>
-	  <developerConnection>scm:git:https://github.com:jeevansarode/DevOps.git</developerConnection>
-	  <url>https://github.com:jeevansarode/DevOps.git</url>
+	  <connection>scm:git:https://github.com/jeevansarode/DevOps.git</connection>
+	  <developerConnection>scm:git:https://github.com/jeevansarode/DevOps.git</developerConnection>
+	  <url>https://github.com/jeevansarode/DevOps.git</url>
 	  <tag>HEAD</tag>
 	</scm>
 	
+
 	<groupId>com.example</groupId>
 	<artifactId>DevOps</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
