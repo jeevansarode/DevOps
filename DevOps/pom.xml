@@ -25,13 +25,13 @@
 	  <connection>scm:git:https://github.com/jeevansarode/DevOps.git</connection>
 	  <developerConnection>scm:git:https://github.com/jeevansarode/DevOps.git</developerConnection>
 	  <url>https://github.com/jeevansarode/DevOps.git</url>
-	  <tag>v0.0.1</tag>
+	  <tag>HEAD</tag>
 	</scm>
 	
 
 	<groupId>com.example</groupId>
 	<artifactId>DevOps</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>DevOps</name>
 	<description>Demo project for Spring Boot DEVOPS</description>
