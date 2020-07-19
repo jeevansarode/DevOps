@@ -11,6 +11,7 @@ public class WelcomeController {
 	@RequestMapping("/")
 	public String welcome(Model model) {
 		model.addAttribute("course","DevOps");
+
 		return "index";
 		
 	}
