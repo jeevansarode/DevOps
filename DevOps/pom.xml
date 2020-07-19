@@ -23,10 +23,10 @@
 	</distributionManagement>
 
 	<scm>
-	  <connection>scm:git:git@github.com:jeevansarode/DevOps.git</connection>
-	  <developerConnection>scm:git:git@github.com:jeevansarode/DevOps.git</developerConnection>
-	  <url>git@github.com:jeevansarode/DevOps.git</url>
-	  <tag>HEAD</tag>
+		<connection>scm:git:https://github.com/jeevansarode/DevOps.git</connection>
+		<developerConnection>scm:git:https://github.com/jeevansarode/DevOps.git</developerConnection>
+		<url>https://github.com/jeevansarode/DevOps.git</url>
+		<tag>HEAD</tag>
 	</scm>
 	
 	<groupId>com.example</groupId>
