@@ -1,7 +1,6 @@
 package com.example.DevOps.web;
 
 
-
 import static org.hamcrest.CoreMatchers.containsString;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.model;
@@ -22,26 +21,24 @@ import org.springframework.web.context.WebApplicationContext;
 @SpringBootTest
 @WebAppConfiguration
 public class WelcomeControllerTest {
-	
-	
-	private MockMvc mockMvc;
-	
-	@Autowired
-	private WebApplicationContext context;
-	
-	@Before
-	public void setUp() throws Exception{
-		
-	}
-	
-	@Test
-	public void testWelcome() throws Exception{
-		mockMvc = MockMvcBuilders.webAppContextSetup(context).build();
-		mockMvc.perform(get("/")).andExpect(status().isOk())
-			.andExpect(model().attribute("course", containsString("DevOps")));
-	}
 
-	
+
+    private MockMvc mockMvc;
+
+    @Autowired
+    private WebApplicationContext context;
+
+    @Before
+    public void setUp() throws Exception {
+
+    }
+
+    @Test
+    public void testWelcome() throws Exception {
+        mockMvc = MockMvcBuilders.webAppContextSetup(context).build();
+        mockMvc.perform(get("/")).andExpect(status().isOk())
+                .andExpect(model().attribute("course", containsString("DevOps")));
+    }
 
 
 }
